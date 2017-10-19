@@ -1,0 +1,54 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: rgba( 71, 147, 227, 1);
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+}
+.logo-spotify {
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+.form-signin {
+    max-width: 400px;
+    padding: 15px;
+    margin: 15px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.form-signin input {
+    margin-bottom: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.album-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 70px;
+}
+
+.album__image {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    border: solid black 5px;
+    margin: 10px;
+}
