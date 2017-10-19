@@ -8,9 +8,10 @@ body {
     background: linear-gradient(to right, #25c481, #25b7c4);
 }
 .logo-spotify {
-    width: 200px;
-    height: 200px;
     color: white;
+    margin: 0 auto;
+    width: 69px;
+    height: 80px;
 }
 .form-signin {
     max-width: 400px;
