@@ -7,12 +7,14 @@ body {
     background: -webkit-linear-gradient(left, #25c481, #25b7c4);
     background: linear-gradient(to right, #25c481, #25b7c4);
 }
+
 .logo-spotify {
     color: white;
     margin: 0 auto;
     width: 69px;
     height: 80px;
 }
+
 .form-signin {
     max-width: 400px;
     padding: 15px;
@@ -52,4 +54,36 @@ body {
     height: 200px;
     border: solid black 5px;
     margin: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.play-icon__wrapper {
+    opacity: 0;
+    position: absolute;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.play-icon__wrapper:hover {
+    opacity: 0.5;
+    color: black;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    opacity: 0.8;
 }
